@@ -3,7 +3,7 @@
 .contComoDoar{
   background: rgb(219, 218, 218);
 
-  height: 99.7vh;
+  height: 120vh;
  
   display: flex;
    align-items: center;
@@ -71,6 +71,7 @@
   width : 210px;
   text-align : center;
   font-family: 'Quicksand', sans-serif;
+  color: #060922
 }
 
 .requisitos > div > span {
@@ -85,19 +86,50 @@
 .div3{
   display: flex;
   background : #0B6945 ; 
-  height : 380px;
+  height : 700px;
    width : 100%;
    margin-top : 50px;
    align-items: center;
-   justify-content: center;
+   
    flex-direction: column;
 }
-.div3 > h2{
+.div3 > div {
+  margin-top: 150px;
+}
+.div3 > div > h2, p{
   font-family: 'Quicksand', sans-serif;
   color : #FFFFFF
 }
-.div3 > p{
-  margin-top: 0px;
-  font-family: 'Quicksand', sans-serif;
-  color : #FFFFFF
+
+
+.carousel{
+  display: flex;
+
+  width: 300px;
+  overflow: hidden;
+  scroll-behavior: unset;
+
+}
+
+.carousel-item{
+  width: 300px;
+ 
+  flex : none
+}
+
+.carousel-item > p{
+  padding: 5px;
+}
+.carousel-container{
+  display: flex
+}
+
+ .button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+.button > img{
+  height: 40px;
 }
