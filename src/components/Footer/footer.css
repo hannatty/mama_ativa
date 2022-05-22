@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Quicksand", sans-serif;
+  color: #363535;
+  height: 100px;
+  width: 100%;
+}
+
+#copyright {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.media-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000;
+}
+
+.link-footer {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #474a51;
+  cursor: pointer;
+}

@@ -1,16 +1,18 @@
 
-import './index.css'
+import './comoDoar.css'
 import right from '../../images/right1.png'
 import left from '../../images/left1.png'
 import saude from '../../images/cuidados-de-saude1.png'
 import producao from '../../images/milk2.png'
 import remedios from '../../images/no-drugs2.png'
+import Header2 from '../../components/Header2'
 
 
 const ComoDoar = () => {
     let texto = 'Vem cá que a gente te explica ;)'
     return(
         <div className='contComoDoar' >
+            <Header2 />
 
 
         
