@@ -106,8 +106,9 @@
   display: flex;
 
   width: 300px;
-  overflow: hidden;
-  scroll-behavior: unset;
+ 
+ 
+  overflow:  hidden;
 
 }
 

@@ -6,11 +6,12 @@ import saude from '../../images/cuidados-de-saude1.png'
 import producao from '../../images/milk2.png'
 import remedios from '../../images/no-drugs2.png'
 import CarouselComponent from './CarouselComponent'
+import { useNavigate} from 'react-router-dom'
 
 
 
 const ComoDoar = () => {
-
+    const navigate = useNavigate()
     return(
         <div className='contComoDoar' >
 
@@ -50,6 +51,7 @@ const ComoDoar = () => {
                      </div>
                 
                  </div>
+                 <button onClick={() => navigate('/unidadeDoacao', { state  : {unidade : 'recife'}})}> oi</button>
 
                   
                  

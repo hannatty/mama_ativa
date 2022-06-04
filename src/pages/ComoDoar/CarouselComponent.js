@@ -9,13 +9,24 @@ const CarouselComponent = () =>{
    const carousel = useRef(null)
 
    const previousClick = (e) =>{
+      console.log('entrou')
       e.preventDefault()
       carousel.current.scrollLeft -= carousel.current.offsetWidth
+
+      console.log(carousel.current.offsetWidth)
    }
    
    const nextClick = (e) =>{
+      console.log('entrou')
       e.preventDefault()
-      carousel.current.scrollLeft += carousel.current.offsetWidth
+      if(carousel.current.scrollLeft === 600){
+         carousel.current.scrollLeft = 0
+      }else{
+
+         carousel.current.scrollLeft += carousel.current.offsetWidth
+      }
+
+      console.log(carousel.current.scrollLeft)
 
    }
     return(
