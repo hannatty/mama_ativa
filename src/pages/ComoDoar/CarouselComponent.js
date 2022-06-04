@@ -2,6 +2,8 @@ import "../ComoDoar/comoDoar.css";
 import leftArrow from "../../images/left-arrow.png";
 import rightArrow from "../../images/right-arrow.png";
 import { useRef } from "react";
+
+
 const CarouselComponent = () => {
   const carousel = useRef(null);
 

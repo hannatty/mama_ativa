@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .banner{
@@ -17,10 +17,10 @@ body{
 }
 
 .info-home{
-  font-family: 'Quicksand', sans-serif;
-  font-weight:bold;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: lighter;
   font-size: 50px;
-  color:#2e2e2e;
+  color:#3e3e3e;
   text-align: center;
   padding: 80px;
 
