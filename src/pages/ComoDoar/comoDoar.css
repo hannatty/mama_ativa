@@ -29,14 +29,14 @@
 .requisitos{
   display: flex;
   flex-direction: row;
-  margin-top: 150px;   
+
   background : white;  
   height : 100px;
   width : 100%;
-  position : absolute;
+  
   
    padding: 0px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
       
 }
@@ -68,7 +68,7 @@
 .div3{
   display: flex;
   background : #0B6945 ; 
-  height : 500px;
+  height : 200px;
    width : 100%;
    padding-top: 50px;
    align-items: center;
@@ -95,8 +95,9 @@
 .carousel{
   display: flex;
   width: 300px;
-  overflow: hidden;
-  scroll-behavior: unset;
+ 
+ 
+  overflow:  hidden;
 
 }
 

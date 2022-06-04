@@ -58,6 +58,7 @@ const CarouselComponent = () => {
         <div className="button" onClick={nextClick}>
           <img src={rightArrow} alt="" />
         </div>
+
       </div>
     </div>
   );

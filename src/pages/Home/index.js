@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header1 />
-      <Link className='banner' to="/"> 
+      <Link className='banner' to='/'> 
         <img src={banner} alt='Banner Mama Ativa' className='banner'/> 
       </Link>
       <div className="container2">

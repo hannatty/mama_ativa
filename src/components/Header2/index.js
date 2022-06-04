@@ -30,7 +30,7 @@ const Header2 = () => {
       <Link className="logo1" to="/">
         <img src={logo1} alt="Logo Mama Ativa" className="logo" />
       </Link>
-      <Link className="menu-options"> Ir para Área de Produtos Infantis </Link>
+      <Link className="menu-options" to='/'> Ir para Área de Produtos Infantis </Link>
       <Box sx={{ flexGrow: 0 }}>
         <Tooltip title="Configurações">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
