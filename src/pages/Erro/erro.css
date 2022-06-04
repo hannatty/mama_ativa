@@ -1,0 +1,20 @@
+.container-erro{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  font-family: 'Quicksand', 'sans-serif';
+}
+
+#erro-img-config{
+  width: 300px;
+  height: 300px;
+  padding-top: 50px;
+}
+
+#erro-msg{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}

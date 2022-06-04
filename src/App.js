@@ -1,19 +1,11 @@
+import "./style.css";
+import Routes from "./routes";
 
-
-import { BrowserRouter, Routes , Route } from 'react-router-dom';
-import ComoDoar from './pages/ComoDoar'
- 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-        <BrowserRouter>
-             <Routes>
-                <Route path='/comodoar'  element={<ComoDoar/>}/>
-             </Routes>
-        </BrowserRouter>
+    <div className="app">
+      <Routes/>
     </div>
   );
 }
 
-export default App;
