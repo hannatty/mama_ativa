@@ -1,0 +1,46 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container1{
+display: flex;
+text-align: center;
+flex-direction: column;
+width: 100%;
+background-color:#C7CBF3 ;
+padding-bottom: 20px;
+}
+
+.imgGroup{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.img-config{
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+.subtitle-config{
+  padding-top: 20px;
+  font-size: 40px;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #000;
+}
+
+.link_cadastro {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+
+  transition-duration: 0.5s;
+}
+
+a.link_cadastro:hover {
+  font-size: 26px; 
+  color:#000;
+}

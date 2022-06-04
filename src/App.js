@@ -1,21 +1,13 @@
+import "./style.css";
+import Router from "./Router";
 
 
-import { BrowserRouter, Routes , Route } from 'react-router-dom';
-import ComoDoar from './pages/ComoDoar'
-import UnidadeDoacao from './pages/UnidadeDoacao.js';
- 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-        <BrowserRouter>
-             <Routes>
-                <Route path='/comodoar'  element={<ComoDoar/>}/>
-                <Route path='/unidadeDoacao'  element={<UnidadeDoacao/>}/>
-             </Routes>
-        </BrowserRouter>
+    <div className="app">
+      <Router/>
+
     </div>
   );
 }
 
-export default App;
