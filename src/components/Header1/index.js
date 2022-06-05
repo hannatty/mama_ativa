@@ -9,7 +9,6 @@ const Header1 = () => {
         <img src={logo1} alt="Logo Mama Ativa" className="logo"/>
       </Link>
       <Link className="menu-options" to='/quemsomos'>Quem Somos</Link>
-      <Link className="menu-options" to='/' >Parcerias </Link>
       <Link className="menu-options"  to='/'>Contato </Link>
       <Link to='/'>
         <button className="register-button" >Entrar</button>

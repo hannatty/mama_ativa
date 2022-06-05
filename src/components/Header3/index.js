@@ -10,12 +10,12 @@ import {
   MenuItem,
 } from "@mui/material";
 import logo1 from "../../images/logo1.svg";
-import "./header2.css";
+import "./header3.css";
 import avtUser from '../../images/avtUser.jpg'
 
 const settings = ["Perfil", "Configurações", "Sair"];
 
-const Header2 = () => {
+const Header3 = () => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenUserMenu = (event) => {
@@ -26,11 +26,11 @@ const Header2 = () => {
     setAnchorElUser(null);
   };
   return (
-    <header>
+    <header className="header3">
       <Link className="logo1" to="/">
         <img src={logo1} alt="Logo Mama Ativa" className="logo" />
       </Link>
-      <Link className="menu-options" to='/areainfantil'> Ir para Área de Produtos Infantis </Link>
+      <Link className="menu-options" to='/areaDoadora'> Ir para Área Principal </Link>
       <Box sx={{ flexGrow: 0 }}>
         <Tooltip title="Configurações">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -69,4 +69,4 @@ const Header2 = () => {
   );
 };
 
-export default Header2;
+export default Header3;
