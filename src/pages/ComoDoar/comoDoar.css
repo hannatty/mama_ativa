@@ -26,6 +26,14 @@
   
 }
 
+.imagePassos{
+  height: 180px;
+  
+  margin-left: 25px;
+  
+  
+}
+
 .requisitos{
   display: flex;
   flex-direction: row;
@@ -68,9 +76,10 @@
 .div3{
   display: flex;
   background : #0B6945 ; 
-  height : 200px;
+  height : 400px;
    width : 100%;
    padding-top: 50px;
+   justify-content: center;
    align-items: center;
    flex-direction: column;
 }
@@ -80,11 +89,14 @@
   color: #FFF;
   font-size: 30px;
   text-transform: uppercase;
+  
+  margin-bottom: 30px;
+  
+  
+  
 }
 
-.div3 > div {
-  margin-top: 150px;
-}
+
 .div3 > div > h2, p{
   font-family: 'Quicksand', sans-serif;
   color : #FFFFFF
@@ -95,7 +107,9 @@
   display: flex;
   width: 300px;
  
- 
+
+   align-items: center;
+
   overflow:  hidden;
 
 }
@@ -113,6 +127,13 @@
 }
 .carousel-container{
   display: flex;
+ 
+  
+  align-items: center;
+  justify-content: center;
+  
+  margin-bottom: 80px;
+  
 }
 
  .button{

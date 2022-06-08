@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ComoDoar from "./pages/ComoDoar";
 import Erro from "./pages/Erro";
 import Footer from "./components/Footer";
+import Contato from './pages/Contato';
 
 
 const Router = () => {
@@ -13,6 +14,7 @@ const Router = () => {
         <Route  path='/' element={<Home/>} />
         <Route  path="/comodoar" element={<ComoDoar/>} />
         <Route  path="*" element={<Erro/>} />
+        <Route  path="/contato" element={<Contato/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

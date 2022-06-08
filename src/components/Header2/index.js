@@ -15,7 +15,7 @@ import avtUser from '../../images/avtUser.jpg'
 
 const settings = ["Perfil", "Configurações", "Sair"];
 
-const Header2 = () => {
+const Header2 = ({text , linkBoolean}) => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenUserMenu = (event) => {
@@ -30,7 +30,12 @@ const Header2 = () => {
       <Link className="logo1" to="/">
         <img src={logo1} alt="Logo Mama Ativa" className="logo" />
       </Link>
-      <Link className="menu-options" to='/'> Ir para Área de Produtos Infantis </Link>
+      {
+        linkBoolean ? 
+        <Link className="menu-options" to='/'> {text} </Link>
+        :
+        <p className="menu-options"> {text}</p>
+      }
       <Box sx={{ flexGrow: 0 }}>
         <Tooltip title="Configurações">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

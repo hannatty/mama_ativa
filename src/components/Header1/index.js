@@ -10,7 +10,7 @@ const Header1 = () => {
       </Link>
       <Link className="menu-options" to='/comodoar' >Quem Somos</Link>
       <Link className="menu-options" to='/' >Parcerias </Link>
-      <Link className="menu-options"  to='/'>Contato </Link>
+      <Link className="menu-options"  to='/contato'>Contato </Link>
       <Link to='/'>
         <button className="register-button" >Entrar</button>
       </Link> 
