@@ -4,8 +4,10 @@ footer {
   justify-content: space-around;
   font-family: "Quicksand", sans-serif;
   color: #363535;
-  height: 100px;
+  height: 60px;
   width: 100%;
+  
+  align-self: flex-end;
 }
 
 #copyright {
