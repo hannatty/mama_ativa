@@ -1,10 +1,12 @@
-import './contato.css'
-import Header2 from '../../components/Header2'
+import './contato.css';
+import Header2 from '../../components/Header1';
+import { Button } from "@mui/material";
 
 const Contato = () => {
   return (
-    <div className="contatoContainer">
+    <div>
     <Header2 />
+    <div className="contatoContainer" style={{ marginBottom: '150px', marginTop: '80px' }}>
          <input type="text" placeholder="Nome" className='campo'/>
          <input type="text" placeholder="E-mail" className='campo' />
          <select name="" id="" className='select' >
@@ -15,6 +17,8 @@ const Contato = () => {
              <option value="outros">Outros</option>
         </select>
         <textarea name="" id="" cols="30" rows="10" placeholder='Mensagem' className='campo'/>
+        <Button variant="contained" href="/mensagemenviada" style={{backgroundColor: '#5B69E8'}}>Enviar</Button>
+    </div>
     </div>
   )
 }
