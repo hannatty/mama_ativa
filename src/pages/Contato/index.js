@@ -1,11 +1,11 @@
 import './contato.css';
-import Header2 from '../../components/Header1';
+import Header1 from '../../components/Header1';
 import { Button } from "@mui/material";
 
 const Contato = () => {
   return (
     <div>
-    <Header2 />
+    <Header1 />
     <div className="contatoContainer" style={{ marginBottom: '150px', marginTop: '80px' }}>
          <input type="text" placeholder="Nome" className='campo'/>
          <input type="text" placeholder="E-mail" className='campo' />

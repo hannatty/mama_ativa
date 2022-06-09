@@ -11,7 +11,7 @@ const Header1 = () => {
       <Link className="menu-options" to='/quemsomos' >Quem Somos</Link>
       <Link className="menu-options" to='/' >Parcerias </Link>
       <Link className="menu-options"  to='/contato'>Contato </Link>
-      <Link to='/'>
+      <Link to='/areadoadora'>
         <button className="register-button" >Entrar</button>
       </Link> 
     </header>
