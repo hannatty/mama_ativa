@@ -30,12 +30,7 @@ const Header2 = ({text , linkBoolean}) => {
       <Link className="logo1" to="/">
         <img src={logo1} alt="Logo Mama Ativa" className="logo" />
       </Link>
-      {
-        linkBoolean ? 
-        <Link className="menu-options" to='/'> {text} </Link>
-        :
-        <p className="menu-options"> {text}</p>
-      }
+      <Link className="menu-options" to='/areainfantil'> Ir para Área de Produtos Infantis </Link>
       <Box sx={{ flexGrow: 0 }}>
         <Tooltip title="Configurações">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -75,3 +70,4 @@ const Header2 = ({text , linkBoolean}) => {
 };
 
 export default Header2;
+

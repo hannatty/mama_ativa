@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 .contComoDoar{
   background: #FFFFFF;
 
@@ -13,7 +12,8 @@
 }
 
 .divTituloComoDoar{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: bold;
   font-size: 22px;
   color: #33168D;
   text-align: center;
@@ -88,6 +88,7 @@
   text-align: center;
   color: #FFF;
   font-size: 30px;
+  font-family: 'Hammersmith one', sans-serif;
   text-transform: uppercase;
   
   margin-bottom: 30px;

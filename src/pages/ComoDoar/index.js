@@ -8,7 +8,7 @@ import CarouselComponent from "./CarouselComponent";
 const ComoDoar = () => {
   return (
     <div>
-      <Header2 text='Ir para Área de Produtos Infantis' linkBoolean={true}  />
+      <Header2 />
       <div className="contComoDoar">
         <div className="divTituloComoDoar">
           <h1>O QUE PRECISO PARA SER DOADORA? </h1>

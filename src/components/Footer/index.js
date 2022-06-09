@@ -11,7 +11,7 @@ export default function Footer(){
       <span> <img src={copyIcon} alt='copyright' id='copyright'/>2022 MAMA ATIVA</span>  
       <div>
         <Link className='link-footer' to="/">Política de Privacidade</Link>
-        <Link className='link-footer' to="/">Contato</Link>
+        <Link className='link-footer' to="/contato">Contato</Link>
       </div> 
       <div>
         <Link to="/" className='config-icon'><img src={faceIcon} alt="logo facebook" className='media-icon'/></Link>

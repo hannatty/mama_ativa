@@ -1,0 +1,16 @@
+.areaDoadora {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  height: 700px;
+}
+
+.carrosel_position {
+  display: flex;
+  justify-content: center;
+}
+
+.imageCards {
+  width: 150px;
+  height: 150px;
+}
