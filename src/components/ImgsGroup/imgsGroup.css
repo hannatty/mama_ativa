@@ -9,6 +9,7 @@ flex-direction: column;
 width: 100%;
 background-color:#C7CBF3 ;
 padding-bottom: 20px;
+
 }
 
 .imgGroup{
@@ -17,11 +18,15 @@ padding-bottom: 20px;
   justify-content:center;
   margin-top: 30px;
   margin-bottom: 10px;
+  @media screen and (max-width: 768px){
+    flex-direction:column;
+  }
 }
 
 .img-config{
   margin-left:10px;
   margin-right: 10px;
+  
 }
 
 .subtitle-config{
@@ -30,6 +35,11 @@ padding-bottom: 20px;
   margin-top: 20px;
   font-size: 25px;
   color: #000;
+  @media screen and (max-width: 768px){
+    font-size: 18px;
+    padding: 10px 30px;
+    text-align: center;
+  }
 }
 
 .link_cadastro {
@@ -38,6 +48,11 @@ padding-bottom: 20px;
   font-weight: bold;
 
   transition-duration: 0.5s;
+
+  @media screen and (max-width: 768px){
+    font-size: 18px;
+ 
+  }
 }
 
 a.link_cadastro:hover {
