@@ -21,7 +21,9 @@ const Home = () => {
       </div>
       <div>
         <ImgsGroup />
-        <CarroselLactantes/>
+      </div>
+      <div>
+      <CarroselLactantes/>
       </div>
       <div>
         <br/>

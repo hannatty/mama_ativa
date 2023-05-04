@@ -47,16 +47,16 @@ function Item(props) {
         style={{
           backgroundColor: "#C7CBF3",
           width: "50%",
-          height: "22rem",
+          height: "20rem",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
           alignItems: "center",
-         
+       
          
         }}
       >
-        <div style={{ paddingTop: "40px" 
+        <div style={{ paddingTop: "30px" 
           }}>{props.item.img}</div>
        
       </Paper>
