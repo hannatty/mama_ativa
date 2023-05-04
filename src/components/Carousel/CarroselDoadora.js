@@ -1,4 +1,4 @@
-import "./areaDoadora.css";
+import "./styles.css";
 import location_icon from "../../images/icon_location.svg";
 import pump_icon from "../../images/icon_pump.svg";
 import note_icon from "../../images/icon_note.svg";
@@ -48,6 +48,7 @@ function Item(props) {
   return (
     <div className="carrosel_position">
       <Paper
+      className="paper"
         style={{
           backgroundColor: "#C7CBF3",
           width: "50%",
@@ -59,20 +60,16 @@ function Item(props) {
           marginTop: "120px",
         }}
       >
-        <h2 style={{ paddingTop: "40px" }}>{props.item.img}</h2>
-        <Button
-          className="CheckButton"
+        <h2 style={{ paddingTop: "40px" ,
+          }}>{props.item.img}</h2>
+        <button
+          className="button"
           style={{
-            backgroundColor: "#9098E0",
-            fontFamily: 'Quicksand',
-            fontSize: "1.5rem",
-            color: "#FFF",
-            width: "100%",
-            height: "4rem",
+           
           }}
         >
           {props.item.title}
-        </Button>
+        </button>
       </Paper>
     </div>
   );

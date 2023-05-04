@@ -1,6 +1,6 @@
 import './imgsGroup2.css';
 import { Link } from 'react-router-dom';
-import childPicture from "../../images/fotoCrianca.png";
+import childPicture from "../../../images/fotoCrianca.png";
 
 
 export default function ImgsGroup(){

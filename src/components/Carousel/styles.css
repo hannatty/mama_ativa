@@ -1,0 +1,51 @@
+.carrosel_position {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .paper{
+    @media screen and (max-width: 768px){
+     padding:0px 50px;
+    }
+  }
+  .button{
+    background-Color: #9098E0;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    color: #FFF;
+    width: 100%;
+    height: 4rem;
+    margin: 0px;
+    display: inline-block;
+    @media screen and (max-width: 768px){
+      width: 151%;
+     font-size:1.2rem;
+    
+      
+    }
+  }
+  svg{
+    color:#C7CBF3;
+    
+  }
+  .imageCards {
+    width: 150px;
+    height: 150px;
+  }
+  .carrosel_mobile {
+   display: none;
+   @media screen and (max-width: 768px){
+    display: block;
+    width: 163%;
+ 
+  }
+   
+   
+  }
+  .carrosel{
+    display: none;
+    @media screen and (max-width: 768px){
+     display: block;
+ 
+   }
+  }

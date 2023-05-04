@@ -1,11 +1,11 @@
-import Header3 from "../../components/Header3";
+import MenuAreaInfantil from "../../components/Layout/Menu/AreaInfantil";
 import CarroselInfantil from "./CarrolselInfantil";
 import "./area_infantil.css";
 
 const AreaInfantil = () => {
   return (
     <div className="areaInfantil">
-      <Header3 />
+      <MenuAreaInfantil/>
       <CarroselInfantil />
     </div>
   );

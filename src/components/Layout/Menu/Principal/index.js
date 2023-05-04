@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from "react-router-dom";
-import logo1 from "../../images/logo1.svg";
-import "./header.css";
+import logo1 from "../../../../images/logo1.svg";
+import "./styles.css";
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
@@ -11,7 +11,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import DensitySmallIcon from '@mui/icons-material/DensitySmall';
 
-const Header1 = () => {
+const Principal = () => {
   const [state, setState] = React.useState({
     right: false,
   });
@@ -32,7 +32,7 @@ const Header1 = () => {
       <List>
 
         <ListItem>
-          <ListItemButton>
+          <ListItemButton className='close'>
             <Link className="menu" to='/quemsomos' >Quem Somos</Link>
           </ListItemButton>
         </ListItem>
@@ -92,6 +92,7 @@ const Header1 = () => {
             <button
               className='button'   onClick={toggleDrawer(anchor, true)}> <DensitySmallIcon/></button>
             <Drawer
+           
               anchor={anchor}
               open={state[anchor]}
               onClose={toggleDrawer(anchor, false)}
@@ -108,4 +109,4 @@ const Header1 = () => {
   );
 };
 
-export default Header1;
+export default Principal;

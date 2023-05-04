@@ -1,4 +1,4 @@
-import Header2 from "../../components/Header2";
+import Header2 from "../../components/Layout/Menu/AreaDoadora";
 import Title from "./Title";
 import TableDonation from "./TableDonation";
 

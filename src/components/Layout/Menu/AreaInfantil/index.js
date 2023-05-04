@@ -9,13 +9,13 @@ import {
   Menu,
   MenuItem,
 } from "@mui/material";
-import logo1 from "../../images/logo1.svg";
-import "./header3.css";
-import avtUser from '../../images/avtUser.jpg'
+import logo1 from "../../../../images/logo1.svg";
+import "./styles.css";
+import avtUser from '../../../../images/avtUser.jpg'
 
 const settings = ["Perfil", "Configurações", "Sair"];
 
-const Header3 = () => {
+const MenuAreaInfantil = () => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenUserMenu = (event) => {
@@ -69,4 +69,4 @@ const Header3 = () => {
   );
 };
 
-export default Header3;
+export default MenuAreaInfantil;

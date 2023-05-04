@@ -2,7 +2,7 @@ import "./comoDoar.css";
 import saude from "../../images/icon1heart.png";
 import producao from "../../images/icon2breast.png";
 import remedios from "../../images/icon3drugs.png";
-import Header2 from "../../components/Header2";
+import Header2 from "../../components/Layout/Menu/AreaDoadora";
 import CarouselComponent from "./CarouselComponent";
 
 const ComoDoar = () => {

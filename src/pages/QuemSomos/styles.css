@@ -1,0 +1,47 @@
+.banner2 {
+    background-image: url("../../images/banner2.svg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 768px) {
+        background-image: url("../../images/bannermobile.png");
+
+    }
+}
+
+.banner-text {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 'Hammersmith One';
+    font-size: 38px;
+    color: #FFF;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 50px;
+        padding:19px 0px;
+        font-size: 19px;
+    }
+
+}
+
+.box {
+    display: flex;
+    height: 300px;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        height: 100%;
+        margin-bottom: 30px;
+
+    }
+}
+
+.cardmedia {
+margin-left: 50px;
+    @media screen and (max-width: 768px) {
+        margin-left: 0px;
+       
+
+    }
+}

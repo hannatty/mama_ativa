@@ -1,11 +1,11 @@
-import Header2 from "../../components/Header2";
-import CarroselDoadora from "./CarroselDoadora";
+import ProfileMenu from "../../components/Layout/Menu/AreaDoadora";
+import CarroselDoadora from "../../components/Carousel/CarroselDoadora";
 import "./areaDoadora.css";
 
 const AreaDoadora = () => {
   return (
     <div className="areaDoadora">
-      <Header2 />
+      <ProfileMenu/>
       <CarroselDoadora />
     </div>
   );

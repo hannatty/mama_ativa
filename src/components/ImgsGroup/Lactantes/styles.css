@@ -9,6 +9,9 @@ flex-direction: column;
 width: 100%;
 background-color:#C7CBF3 ;
 padding-bottom: 20px;
+@media screen and (max-width: 768px){
+  display:none;
+}
 
 }
 

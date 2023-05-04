@@ -1,8 +1,8 @@
 import './footer.css';
 import { Link } from 'react-router-dom';
-import faceIcon from '../../images/facebook.png';
-import instagramIcon from '../../images/instagram.png';
-import copyIcon from "../../images/copyright.png";
+import faceIcon from '../../../images/facebook.png';
+import instagramIcon from '../../../images/instagram.png';
+import copyIcon from "../../../images/copyright.png";
 
 
 export default function Footer(){

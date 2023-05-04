@@ -6,7 +6,7 @@ import ComoDoar from "./pages/ComoDoar";
 import MinhasDoacoes from "./pages/MinhasDoacoes";
 import AreaInfantil from "./pages/AreaInfantil";
 import Erro from "./pages/Erro";
-import Footer from "./components/Footer";
+import Footer from "./components//Layout/Footer";
 import Contato from "./pages/Contato";
 import ResponseContact from "./pages/Contato/ResponseContact";
 
