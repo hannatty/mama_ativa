@@ -83,14 +83,16 @@ const Principal = () => {
       </div>
 
       <div className="mobile">
-      <Link className="logo1" to="/">
+        <div>
+        <Link className="logo1" to="/">
           <img src={logo1} alt="Logo Mama Ativa" className="logo" />
         </Link>
-        {['right'].map((anchor) => (
+        </div>
+    <div>
+    {['right'].map((anchor) => (
           <React.Fragment key={anchor}>
             
-            <button
-              className='button'   onClick={toggleDrawer(anchor, true)}> <DensitySmallIcon/></button>
+           <DensitySmallIcon  className='button'   onClick={toggleDrawer(anchor, true)}/>
             <Drawer
            
               anchor={anchor}
@@ -101,6 +103,8 @@ const Principal = () => {
             </Drawer>
           </React.Fragment>
         ))}
+    </div>
+       
       </div>
 
 

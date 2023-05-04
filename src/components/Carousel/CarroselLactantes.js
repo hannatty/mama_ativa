@@ -46,12 +46,13 @@ function Item(props) {
       className="paper"
         style={{
           backgroundColor: "#C7CBF3",
-          width: "45%",
-          height: "28rem",
+          width: "50%",
+          height: "26rem",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
           alignItems: "center",
+          
          
         }}
       >
