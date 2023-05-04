@@ -11,19 +11,19 @@ import { Link } from "react-router-dom";
 export default function CarroselLactantes(props) {
   var items = [
     {
-      img: <img src={foto1} alt="ícone"  />,
+      img: <img src={foto1} alt="ícone" className="imagemaes" />,
    
     },
     {
-      img: <img src={foto2} alt="ícone"  />,
+      img: <img src={foto2} alt="ícone" className="imagemaes" />,
      
     },
     {
-      img: <img src={foto3} alt="ícone"/>,
+      img: <img src={foto3} alt="ícone" className="imagemaes"/>,
     
     },
     {
-      img: <img src={foto4} alt="ícone" />,
+      img: <img src={foto4} alt="ícone" className="imagemaes"/>,
      
     },
   ];
@@ -46,11 +46,13 @@ function Item(props) {
       className="paper"
         style={{
           backgroundColor: "#C7CBF3",
-          width: "48%",
-          height: "26rem",
+          width: "50%",
+          height: "22rem",
           display: "flex",
           flexDirection: "column",
-          
+          justifyContent: "space-between",
+          alignItems: "center",
+         
          
         }}
       >
