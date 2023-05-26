@@ -4,8 +4,6 @@ import heart_icon from "../../images/icon_upload_heart.svg";
 import box_icon from "../../images/icon_box_donation.svg";
 import Carousel from "react-material-ui-carousel";
 import { Paper, Button } from "@mui/material";
-import { PropaneRounded } from "@mui/icons-material";
-import { Link } from "react-router-dom";
 
 export default function CarroselInfantil(props) {
   var items = [
@@ -52,7 +50,7 @@ function Item(props) {
           className="CheckButton"
           style={{
             backgroundColor: "#0B6945",
-            fontFamily: 'Quicksand',
+            fontFamily: "Quicksand",
             fontSize: "1.5rem",
             color: "#FFF",
             width: "100%",

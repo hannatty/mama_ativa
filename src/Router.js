@@ -9,11 +9,13 @@ import Erro from "./pages/Erro";
 import Footer from "./components//Layout/Footer";
 import Contato from "./pages/Contato";
 import ResponseContact from "./pages/Contato/ResponseContact";
+import Cadastro from "./pages/Cadastro";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/" element={<Home />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/contato" element={<Contato />} />

@@ -1,6 +1,6 @@
 import "./contato.css";
 import Header1 from "../../components/Layout/Menu/Principal";
-import { Link } from "@mui/material";
+
 import ResponseImage from "../../images/feedback-contact.png";
 
 const ResponseContact = () => {
@@ -11,7 +11,7 @@ const ResponseContact = () => {
         className="contatoContainer"
         style={{ marginBottom: "150px", marginTop: "80px" }}
       >
-        <img src={ResponseImage} />
+        <img alt="contato" src={ResponseImage} />
         <span>
           Agradecemos seu contato! Em breve, nossa equipe te responderá.
         </span>

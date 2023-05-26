@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme } from "@mui/material/styles";
+
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -8,38 +8,42 @@ import Typography from "@mui/material/Typography";
 import geladeiraBL from "../../images/geladeira.jpg";
 import bebePB from "../../images/bebepB.jpg";
 import Principal from "../../components/Layout/Menu/Principal";
-import './styles.css'
+import "./styles.css";
 const QuemSomos = () => {
-  const theme = useTheme();
   return (
     <div>
       <Principal />
-      <div 
-      className='banner2'
-     >
+      <div className="banner2">
         <div
-        style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
-          <h1
-          className='banner-text'
-          >
-            Gente simples, <br/> fazendo coisas pequenas, <br/>
-            em lugares pouco importantes,<br/>
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        >
+          <h1 className="banner-text">
+            Gente simples, <br /> fazendo coisas pequenas, <br />
+            em lugares pouco importantes,
+            <br />
             consegue mudanças extraordinárias!
           </h1>
-          <span style={{marginTop: '5px', color: '#FFF'}}>Provérbio Africano</span>
+          <span style={{ marginTop: "5px", color: "#FFF" }}>
+            Provérbio Africano
+          </span>
         </div>
       </div>
-      <Card
-       className="box"
-        
-        style={{ backgroundColor: "#f1f1f1" }}
-      >
+      <Card className="box" style={{ backgroundColor: "#f1f1f1" }}>
         <Box className="box" sx={{ display: "flex", flexDirection: "column" }}>
           <CardContent>
             <Typography
               component="div"
               variant="h5"
-              style={{ marginTop: "40px", fontFamily: 'Quicksand', marginLeft: '30px' }}
+              style={{
+                marginTop: "40px",
+                fontFamily: "Quicksand",
+                marginLeft: "30px",
+              }}
             >
               Nossa História
             </Typography>
@@ -47,7 +51,7 @@ const QuemSomos = () => {
               variant="subtitle1"
               color="text.secondary"
               component="div"
-              style={{ fontFamily: "Quicksand", marginLeft: '30px' }}
+              style={{ fontFamily: "Quicksand", marginLeft: "30px" }}
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore
@@ -61,20 +65,16 @@ const QuemSomos = () => {
           </CardContent>
         </Box>
         <CardMedia
-         className="cardmedia"
+          className="cardmedia"
           component="img"
           sx={{ width: 400 }}
           image={geladeiraBL}
         />
       </Card>
 
-      <Card
-       className="box"
-        
-        style={{ backgroundColor: "#C7CBF3"}}
-      >
+      <Card className="box" style={{ backgroundColor: "#C7CBF3" }}>
         <CardMedia
-         className="cardmedia"
+          className="cardmedia"
           component="img"
           sx={{ width: 400 }}
           image={bebePB}
@@ -84,7 +84,7 @@ const QuemSomos = () => {
             <Typography
               component="div"
               variant="h5"
-              style={{ marginTop: "40px", fontFamily: 'Quicksand' }}
+              style={{ marginTop: "40px", fontFamily: "Quicksand" }}
             >
               Nossa Missão
             </Typography>
