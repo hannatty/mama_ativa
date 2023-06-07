@@ -22,7 +22,9 @@ const Router = () => {
         <Route path="/areainfantil" element={<AreaInfantil />} />
         <Route path="/minhasdoacoes" element={<MinhasDoacoes />} />
         <Route path="/comodoar" element={<ComoDoar />} />
+       
         <Route path="*" element={<Erro />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>

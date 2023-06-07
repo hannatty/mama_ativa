@@ -3,7 +3,7 @@ import saude from "../../images/icon1heart.png";
 import producao from "../../images/icon2breast.png";
 import remedios from "../../images/icon3drugs.png";
 import Header2 from "../../components/Layout/Menu/AreaDoadora";
-import CarouselComponent from "./CarouselComponent";
+import CarouselComponent from "../../components/Carousel/CarouselComponent";
 
 const ComoDoar = () => {
   return (
@@ -36,6 +36,7 @@ const ComoDoar = () => {
             <p>Não estar usando medicamentos que impeçam a doação.</p>
           </div>
         </div>
+        
         <CarouselComponent />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import "../ComoDoar/comoDoar.css";
+import "../../pages/ComoDoar/comoDoar.css";
 import leftArrow from "../../images/left-arrow.png";
 import rightArrow from "../../images/right-arrow.png";
 import { useRef } from "react";
@@ -30,7 +30,7 @@ const CarouselComponent = () => {
         Coletando o leite de forma correta{" "}
       </h2>
       <div className="carousel-container">
-        <div className="button" onClick={previousClick}>
+        <div className="button-comodoar" onClick={previousClick}>
           <img src={leftArrow} alt="" />
         </div>
         <div className="carousel" ref={carousel}>
@@ -61,7 +61,7 @@ const CarouselComponent = () => {
             </p>
           </div>
         </div>
-        <div className="button" onClick={nextClick}>
+        <div className="button-comodoar" onClick={nextClick}>
           <img src={rightArrow} alt="" />
         </div>
 

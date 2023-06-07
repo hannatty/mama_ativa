@@ -14,22 +14,27 @@ export default function CarroselDoadora(props) {
     {
       img: <img src={pump_icon} alt="ícone" className="imageCards" />,
       title: "Como Doar",
+      src: <button className="button-item"><Link className="button-item"to='/comodoar'>Como Doar</Link></button>
     },
     {
       img: <img src={location_icon} alt="ícone" className="imageCards" />,
       title: "Bancos de Leite",
+      src: <button className="button-item"><Link className="button-item"to='/'>Bancos de Leite</Link></button>
     },
     {
       img: <img src={note_icon} alt="ícone" className="imageCards" />,
       title: "Minhas Doações",
+      src: <button className="button-item"><Link className="button-item"to='/minhasdoacoes'>Minhas Doações</Link></button>
     },
     {
       img: <img src={trofeu_icon} alt="ícone" className="imageCards" />,
       title: "Minhas Conquistas",
+      src: <button className="button-item"><Link className="button-item"to='/'>Minhas Conquistas</Link></button>
     },
     {
       img: <img src={media_icon} alt="ícone" className="imageCards" />,
       title: "Mama Mídia",
+      src: <button className="button-item"><Link className="button-item"to='/'>Mama Mídia</Link></button>
     },
   ];
 
@@ -67,8 +72,9 @@ function Item(props) {
           style={{
            
           }}
+         
         >
-          {props.item.title}
+          {props.item.src}
         </button>
       </Paper>
     </div>
