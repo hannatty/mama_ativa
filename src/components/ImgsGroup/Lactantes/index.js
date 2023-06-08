@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
-import foto1 from "../../../images/foto1.png"
+import foto1 from "../../../images/foto1.png";
 import foto2 from "../../../images/foto2.png";
 import foto3 from "../../../images/foto3.png";
 import foto4 from "../../../images/foto4.png";
