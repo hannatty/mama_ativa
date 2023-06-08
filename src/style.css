@@ -20,7 +20,7 @@ body{
   font-family: 'Hammersmith One', sans-serif;
   font-weight: lighter;
   font-size: 50px;
-  color:#3e3e3e;
+  color:black;
   text-align: center;
   padding: 80px;
   @media screen and (max-width: 768px){

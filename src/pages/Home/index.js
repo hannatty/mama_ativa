@@ -2,10 +2,10 @@ import "../../style.css";
 import { Link } from "react-router-dom";
 import banner from "../../images/banner.svg";
 import ImgsGroup from "../../components/ImgsGroup/Lactantes";
-import ImgsGroup2 from "../../components/ImgsGroup/Doação";
 import Principal from "../../components/Layout/Menu/Principal";
 import CarroselLactantes from "../../components/Carousel/CarroselLactantes";
 import Mitos from "../../components/Mitos";
+import Depoimento from "../../components/Depoimento";
 
 
 
@@ -30,7 +30,7 @@ const Home = () => {
         <Mitos />
       </div>
       <div>
-        <ImgsGroup2 />
+        <Depoimento />
       </div>
 
     </>
