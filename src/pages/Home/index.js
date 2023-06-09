@@ -6,6 +6,7 @@ import Principal from "../../components/Layout/Menu/Principal";
 import CarroselLactantes from "../../components/Carousel/CarroselLactantes";
 import Mitos from "../../components/Mitos";
 import Depoimento from "../../components/Depoimento";
+import Doacao from "../../components/ImgsGroup/Doacao";
 
 
 
@@ -30,7 +31,7 @@ const Home = () => {
         <Mitos />
       </div>
       <div>
-        <Depoimento />
+        <Doacao />
       </div>
 
     </>
