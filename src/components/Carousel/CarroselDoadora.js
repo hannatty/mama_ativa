@@ -19,7 +19,7 @@ export default function CarroselDoadora(props) {
     {
       img: <img src={location_icon} alt="ícone" className="imageCards" />,
       title: "Bancos de Leite",
-      src: <button className="button-item"><Link className="button-item"to='/'>Bancos de Leite</Link></button>
+      src: <button className="button-item"><Link className="button-item"to='/banco'>Bancos de Leite</Link></button>
     },
     {
       img: <img src={note_icon} alt="ícone" className="imageCards" />,
