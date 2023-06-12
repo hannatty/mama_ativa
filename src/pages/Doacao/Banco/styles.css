@@ -59,7 +59,7 @@
     position: absolute;
     top: 50%;
     /* ou o valor desejado */
-    right: 0;
+    right: 100px;
     transform: translateY(-50%);
     width: 35%;
     height: 69%;
@@ -106,8 +106,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-
-
     color: #737777;
 
 }
@@ -125,5 +123,17 @@
     text-align: center;
     border-radius: 10px;
     margin: 30px;
+    margin-top: 0%;
+}
+.button-list {
+    display: block;
+    width: 20%;
+    padding: 3px;
+    background-color: #9098e0;
+    color: #fff;
+    font-size: 15px;
+    border: 10px;
+    text-align: center;
+    border-radius: 10px;
     margin-top: 0%;
 }

@@ -10,6 +10,7 @@ import Footer from "./components//Layout/Footer";
 import Contato from "./pages/Contato";
 import ResponseContact from "./pages/Contato/ResponseContact";
 import Bank from "./pages/Doacao/Banco/Banco";
+import ListBank from "./pages/Doacao/Banco/Lista";
 
 const Router = () => {
   return (
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/minhasdoacoes" element={<MinhasDoacoes />} />
         <Route path="/comodoar" element={<ComoDoar />} />
         <Route path="/banco" element={<Bank />} />
+        <Route path="/lista" element={<ListBank />} />
         <Route path="*" element={<Erro />} />
 
       </Routes>
