@@ -2,13 +2,13 @@ import "./comoDoar.css";
 import saude from "../../images/icon1heart.png";
 import producao from "../../images/icon2breast.png";
 import remedios from "../../images/icon3drugs.png";
-import Header2 from "../../components/Layout/Menu/AreaDoadora";
 import CarouselComponent from "../../components/Carousel/CarouselComponent";
+import ProfileMenu from "../../components/Layout/Menu/AreaDoadora";
 
 const ComoDoar = () => {
   return (
     <div>
-      <Header2 />
+      <ProfileMenu />
       <div className="contComoDoar">
         <div className="divTituloComoDoar">
           <h1>O QUE PRECISO PARA SER DOADORA? </h1>

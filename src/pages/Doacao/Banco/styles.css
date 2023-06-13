@@ -1,0 +1,139 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    height: 100%;
+
+    padding: 30px 80px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-bank {
+    padding: 0px 100px;
+
+}
+
+.bank-name {
+    width: 350px;
+    height: 114px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.card-location {
+    border: 2px solid #9098e0;
+    background-color: #9098e0;
+    box-shadow: 5px 5px 3px 0px #9098e0;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+}
+
+.card-infor {
+    border: 2px solid #f3f2f2;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 5px 5px 3px 0px rgb(240, 240, 240);
+}
+
+.icon {
+    width: 65%;
+    margin-top: 10px;
+    color: #606060;
+}
+
+.litros-bank {
+    position: absolute;
+    top: 50%;
+    /* ou o valor desejado */
+    right: 100px;
+    transform: translateY(-50%);
+    width: 35%;
+    height: 69%;
+    margin-top: 8vh;
+    background: rgb(208, 187, 244);
+    background: radial-gradient(circle, rgba(208, 187, 244, 1) 0%, rgba(211, 237, 227, 1) 100%);
+    border-radius: 50%;
+    animation: ondulacao-borda 2s linear infinite;
+
+}
+
+@keyframes ondulacao-borda {
+    0% {
+        box-shadow: 0 0 0 0 rgba(208, 187, 244, 1);
+    }
+
+    50% {
+        box-shadow: 0 0 0 20px rgba(255, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(211, 237, 227, 1);
+    }
+}
+
+.litros {
+    margin-top: 20%;
+    font-size: 100px;
+    text-align: center;
+    color: #1F2DA7;
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    line-height: 188px;
+
+}
+
+.description-litros {
+    margin-top: -90px;
+    text-align: center;
+    width: 60%;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #737777;
+
+}
+
+
+
+.button-bairro {
+    display: block;
+    width: 60%;
+    padding: 6px;
+    background-color: #9098e0;
+    color: #fff;
+    font-size: 15px;
+    border: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 0%;
+}
+.button-list {
+    display: block;
+    width: 20%;
+    padding: 3px;
+    background-color: #9098e0;
+    color: #fff;
+    font-size: 15px;
+    border: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0%;
+}
