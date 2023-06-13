@@ -9,7 +9,7 @@ export default function ImgsGroup() {
   return (
  
     <div className="container1">
-      <h2 className="subtitle_config"> Está amamentando?</h2>
+      <h2 className="subtitlConfig" id="tituloAmamentando"> Está amamentando?</h2>
       <h3>Que tal doar um pouquinho do seu leite e se juntar a esse time?</h3>
       <Link className="link_cadastro" to={"/cadastro"}>
         Cadastre-se!
