@@ -1,5 +1,4 @@
 import React from "react";
-import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -10,7 +9,6 @@ import bebePB from "../../images/bebepB.jpg";
 import Principal from "../../components/Layout/Menu/Principal";
 import './styles.css'
 const QuemSomos = () => {
-  const theme = useTheme();
   return (
     <div>
       <Principal />

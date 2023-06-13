@@ -1,6 +1,5 @@
 import "./contato.css";
 import Header1 from "../../components/Layout/Menu/Principal";
-import { Link } from "@mui/material";
 import ResponseImage from "../../images/feedback-contact.png";
 
 const ResponseContact = () => {

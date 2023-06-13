@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import ProfileMenu from "../../../components/Layout/Menu/AreaDoadora"
-import group from "../../../images/Group.svg"
 import "./styles.css"
 import location from "../../../images/marcador.png";
 import hora from "../../../images/relogio-tres.png";
