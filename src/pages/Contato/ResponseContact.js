@@ -10,7 +10,7 @@ const ResponseContact = () => {
         className="contatoContainer"
         style={{ marginBottom: "150px", marginTop: "80px" }}
       >
-        <img src={ResponseImage} />
+        <img alt=""src={ResponseImage} />
         <span>
           Agradecemos seu contato! Em breve, nossa equipe te responderá.
         </span>

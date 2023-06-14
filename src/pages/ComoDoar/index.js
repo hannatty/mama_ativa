@@ -1,43 +1,19 @@
 import "./comoDoar.css";
-import saude from "../../images/icon1heart.png";
-import producao from "../../images/icon2breast.png";
-import remedios from "../../images/icon3drugs.png";
-import CarouselComponent from "../../components/Carousel/CarouselComponent";
 import ProfileMenu from "../../components/Layout/Menu/AreaDoadora";
+import titleInfographic from '../../images/tituloInfografico.png';
+import infographic from '../../images/infografico.png';
 
 const ComoDoar = () => {
   return (
-    <div>
+    <div className="general_container">
       <ProfileMenu />
-      <div className="contComoDoar">
-        <div className="divTituloComoDoar">
-          <h1>O QUE PRECISO PARA SER DOADORA? </h1>
+      <div className="containerComoDoar">
+        <div className="imgTitle">
+          <img src={titleInfographic} alt="Quer saber como doar?" className="titleConfig"/>
         </div>
-        <div className="requisitos">
-          <div>
-            <img src={saude} alt="" className="imageRequisitos" />
-            <span>Saúde</span>
-            <p>
-              Para doar leite materno,
-              <br /> a lactante em questão precisa possuir boa saúde.
-            </p>
-          </div>
-          <div>
-            <img src={producao} alt="" className="imageRequisitos" />
-            <span>Produção</span>
-            <p>
-              Produzir leite excedente, para que não comprometa a amamentação do
-              seu bebê.
-            </p>
-          </div>
-          <div>
-            <img src={remedios} alt="" className="imageRequisitos" />
-            <span>Remédios</span>
-            <p>Não estar usando medicamentos que impeçam a doação.</p>
-          </div>
+        <div className="imgInfoGraphic">
+          <img src={infographic} alt="Infrográfico da doação" className="infographicConfig"/>
         </div>
-        
-        <CarouselComponent />
       </div>
     </div>
   );
