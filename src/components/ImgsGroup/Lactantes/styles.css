@@ -7,8 +7,10 @@ display: flex;
 text-align: center;
 flex-direction: column;
 width: 100%;
-background-color:#C7CBF3 ;
+height: 32rem;
+background-color:#C6CAEF;
 padding-bottom: 20px;
+margin-bottom: 1rem;
 @media screen and (max-width: 768px){
   display:none;
 }
@@ -27,15 +29,22 @@ padding-bottom: 20px;
 }
 
 .img-config{
-  margin-left:10px;
+  width:300px;
+  height:300px;
+  margin-left: 10px;
   margin-right: 10px;
-  
 }
 
-.subtitle-config{
+#childPicId{
+  height: 400px;
+  width: 400px;
+}
+
+.subtitle_config{
   padding-top: 20px;
   font-size: 40px;
   margin-top: 20px;
+  margin-bottom: 2px;
   font-size: 25px;
   color: #000;
   @media screen and (max-width: 768px){
@@ -45,11 +54,14 @@ padding-bottom: 20px;
   }
 }
 
+.container1 h3{
+  margin-top: 2px
+}
+
 .link_cadastro {
   font-size: 25px;
   color: #000;
   font-weight: bold;
-
   transition-duration: 0.5s;
 
   @media screen and (max-width: 768px){

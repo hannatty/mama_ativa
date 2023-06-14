@@ -11,8 +11,6 @@
   .button{
     background-Color: #9098E0;
     font-family: Quicksand;
-    font-size: 1.5rem;
-    color: #FFF;
     width: 100%;
     height: 4rem;
     margin: 0px;
@@ -23,6 +21,13 @@
     
       
     }
+  }
+  .button-item{
+    background-Color: #9098E0;
+    font-size: 1.5rem;
+    color: #FFF;
+    border:none;
+    text-decoration: none;
   }
   svg{
     color:#C7CBF3;

@@ -1,11 +1,11 @@
-import Header2 from "../../components/Layout/Menu/AreaDoadora";
 import Title from "./Title";
 import TableDonation from "./TableDonation";
+import ProfileMenu from "../../../components/Layout/Menu/AreaDoadora";
 
 const MinhasDoacoes = () => {
   return (
     <div className="areaDoadora">
-      <Header2 />
+      <ProfileMenu />
       <Title />
       <TableDonation />
     </div>

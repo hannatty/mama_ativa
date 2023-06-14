@@ -2,9 +2,11 @@ import "../../style.css";
 import { Link } from "react-router-dom";
 import banner from "../../images/banner.svg";
 import ImgsGroup from "../../components/ImgsGroup/Lactantes";
-import ImgsGroup2 from "../../components/ImgsGroup/Doação";
 import Principal from "../../components/Layout/Menu/Principal";
 import CarroselLactantes from "../../components/Carousel/CarroselLactantes";
+import Mitos from "../../components/Mitos";
+import Depoimento from "../../components/Depoimento";
+import Doacao from "../../components/ImgsGroup/Doacao";
 
 
 
@@ -26,11 +28,10 @@ const Home = () => {
       <CarroselLactantes/>
       </div>
       <div>
-        <br/>
-        <h2 className='info-home'>Aqui também tem lugar para<br /> quem entende a importância <br /> de um consumo consciente.</h2>
+        <Mitos />
       </div>
       <div>
-        <ImgsGroup2 />
+        <Doacao />
       </div>
 
     </>

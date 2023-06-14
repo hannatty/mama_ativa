@@ -28,7 +28,6 @@
 
 .imagePassos{
   height: 180px;
-  
   margin-left: 25px;
   
   
@@ -37,12 +36,9 @@
 .requisitos{
   display: flex;
   flex-direction: row;
-
   background : white;  
   height : 100px;
   width : 100%;
-  
-  
    padding: 0px;
   align-items: center;
   justify-content: center;
@@ -90,7 +86,6 @@
   font-size: 30px;
   font-family: 'Hammersmith one', sans-serif;
   text-transform: uppercase;
-  
   margin-bottom: 30px;
   
   
@@ -106,18 +101,14 @@
 
 .carousel{
   display: flex;
-  width: 300px;
- 
-
-   align-items: center;
-
+  width: 420px;
+  align-items: center;
   overflow:  hidden;
 
 }
 
 .carousel-item{
   width: 300px;
- 
   flex : none
 }
 
@@ -128,20 +119,22 @@
 }
 .carousel-container{
   display: flex;
- 
-  
   align-items: center;
   justify-content: center;
-  
   margin-bottom: 80px;
   
 }
 
- .button{
-     display: flex;
-     justify-content: center;
-     align-items: center;
+ .button-comodoar{
+  color: #FFF;
+  width: 20%;
+  margin: 80px;
+  @media screen and (max-width: 768px){
+    width: 151%;
+   font-size:1.2rem;
+  
     
+  }
 }
 .button > img{
   height: 40px;
