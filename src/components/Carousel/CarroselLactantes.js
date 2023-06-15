@@ -4,9 +4,8 @@ import foto2 from "../../images/foto2.png";
 import foto3 from "../../images/foto3.png";
 import foto4 from "../../images/foto4.png";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
-import { PropaneRounded } from "@mui/icons-material";
-import { Link } from "react-router-dom";
+import { Paper } from "@mui/material";
+
 
 export default function CarroselLactantes(props) {
   var items = [

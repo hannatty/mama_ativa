@@ -5,8 +5,7 @@ import note_icon from "../../images/icon_note.svg";
 import media_icon from "../../images/icon_media.svg";
 import trofeu_icon from "../../images/icon_trofeu.svg";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
-import { PropaneRounded } from "@mui/icons-material";
+import { Paper } from "@mui/material";
 import { Link } from "react-router-dom";
 
 export default function CarroselDoadora(props) {

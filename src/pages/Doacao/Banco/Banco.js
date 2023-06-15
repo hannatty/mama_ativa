@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import ProfileMenu from "../../../components/Layout/Menu/AreaDoadora"
-import group from "../../../images/Group.svg"
 import "./styles.css"
 import location from "../../../images/marcador.png";
 import hora from "../../../images/relogio-tres.png";
@@ -91,7 +90,7 @@ export default function Bank(props) {
                                         <span>{e.location}</span>
                                     </div>
                                     <div align="center">
-                                        <img className="icon"
+                                        <img alt="" className="icon"
                                             src={location} />
                                     </div>
                                 </div>
@@ -102,7 +101,7 @@ export default function Bank(props) {
                                         <span>{e.hora}</span>
                                     </div>
                                     <div>
-                                        <img className="icon"
+                                        <img alt="" className="icon"
                                             src={hora} />
                                     </div>
                                 </div>
@@ -110,7 +109,7 @@ export default function Bank(props) {
                                     <div className="card-infor">
                                         <span>Telefone: {e.phone}</span>
                                     </div>
-                                    <div><img className="icon"
+                                    <div><img alt="" className="icon"
                                         src={phone} /> </div>
                                 </div>
                                 <div align="center" className="d-flex">
@@ -118,7 +117,7 @@ export default function Bank(props) {
                                         <span>{e.coleta}</span>
                                     </div>
                                     <div>
-                                        <img className="icon"
+                                        <img alt="" className="icon"
                                             src={verificar} />
                                     </div>
                                 </div>
