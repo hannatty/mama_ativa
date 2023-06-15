@@ -36,10 +36,6 @@ const Router = () => {
     }
   }, []);
 
-  const logOut = () => {
-    AuthService.logout();
-  };
-
   return (
     <BrowserRouter>
       <Routes>

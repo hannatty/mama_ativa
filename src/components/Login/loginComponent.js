@@ -68,6 +68,8 @@ export default class Login extends Component {
     if (this.checkBtn.context._errors.length === 0) {
       AuthService.login(this.state.email, this.state.password).then(
         () => {
+          //this.props.history.push("/areadoadora");
+          //window.location.reload();
           window.location.href = "/areadoadora"
         },
         error => {
@@ -99,7 +101,7 @@ export default class Login extends Component {
             <div className="shadow p-5 mb-5 bg-body rounded">
               <div className="form row g-3">
                 <div className="container-loogo-mamativa">
-                  <img src="./logo_mama_ativa.png" tagname="Testes" alt="Logo marca Mama Ativa" className="login-img-logo" />
+                  <img src="./logo_mama_ativa.png" tagName="Testes" alt="Logo marca Mama Ativa" className="login-img-logo" />
                 </div>
                 <div className="col-12">
                   <label htmlFor="email" className="form-label">E-mail:</label>
@@ -125,7 +127,7 @@ export default class Login extends Component {
                   />
                 </div>
 
-                <div className="d-grid gap-2 col-6 mx-auto">
+                <div class="d-grid gap-2 col-6 mx-auto">
                   <button
                     className="btn my-primary btn-block shadow-sm"
                     disabled={this.state.loading}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { Buffer } from 'buffer';
 import AuthService from "../../services/authService";
 import "./profile.css"
 
