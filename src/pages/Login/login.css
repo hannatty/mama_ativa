@@ -1,0 +1,229 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+label {
+    color: #555;
+}
+
+.my-primary {
+    color: #ffffff !important;
+    background-color: #9098E0;
+}
+
+.my-primary:focus,
+.my-primary:hover {
+    color: #ffffff;
+    background-color: #8289c7;
+    box-shadow: 0 0 10px #C7CBF3 !important;
+}
+
+buttons,
+input:focus {
+    outline: none !important;
+    outline-color: #9098E0 !important;
+    border-color: #9098E0 !important;
+    box-shadow: 0 0 10px #C7CBF3 !important;
+}
+
+a.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-brand:hover {
+    color: #9098E0 !important;
+}
+
+.invalid-input {
+    color: crimson;
+    font-size: smaller;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+}
+
+.container-loogo-mamativa {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login-img-logo {
+    width: 65%;
+}
+
+.container-fluid.login {
+    max-width: 625px !important;
+    padding: 60px;
+}
+
+.container-fluid.register {
+    max-width: 625px !important;
+    padding: 60px;
+}
+
+.card-avatar {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.radius-avatar {
+    height: 125px;
+    width: 125px;
+    overflow: hidden;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img-card {
+    width: 125px;
+}
+
+/* CSS Photo Profile */
+.avatar-wrapper {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 1px 5px 15px -5px #555 !important;
+    border: solid 1px #ced4da;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /*background-color: #F1F1F1;*/
+}
+
+.avatar-wrapper:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.avatar-wrapper:hover .profile-pic {
+    opacity: 0.3;
+}
+
+.avatar-wrapper .profile-pic {
+    position: absolute;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.avatar-wrapper .upload-button {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* CSS Add Photo Profile*/
+#img-add-photo-profile {
+    width: 35%;
+    height: 35%;
+}
+
+.avatar-add-photo {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease
+}
+
+.avatar-add-photo p {
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #737777;
+}
+
+
+#ipt_cbox {
+    margin: 0 10px 0 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input:checked {
+    accent-color: #8289c7;
+}
+
+.checkbox-input {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-input div {
+    height: 20px;
+    width: 20px;
+}
+
+.checkbox-input label {
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.col-12.checkbox p {
+    color: #555;
+    font-size: smaller;
+}
+
+.link {
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.link.back {
+    text-align: start;
+}
+
+a.link:link {
+    color: #555;
+    text-decoration: none;
+}
+
+a.link:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+a.link:hover {
+    font-size: 1.1rem;
+    color: #8289c7;
+    text-decoration: none;
+}
+
+a.link:active {
+    color: #555;
+    text-decoration: none;
+}
