@@ -6,8 +6,6 @@
   color: #363535;
   height: 60px;
   width: 100%;
-
-
   align-self: flex-end;
   @media screen and (max-width: 768px) {display:none;}
  
@@ -15,15 +13,17 @@
 .footer-mobile{
   display: none;
   @media screen and (max-width: 768px) {
+    
     display:flex;
     justify-content: space-between;
     margin-top:15px;
-   
     font-size: 17px;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: #ffff;
+   
+   
   }
 
 }

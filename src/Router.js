@@ -19,6 +19,7 @@ import Footer from "./components//Layout/Footer";
 import Contato from "./pages/Contato";
 import ResponseContact from "./pages/Contato/ResponseContact";
 import Bank from "./pages/Doacao/Banco/Banco";
+import ListBank from "./pages/Doacao/Banco/Lista";
 
 const Router = () => {
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
@@ -43,12 +44,12 @@ const Router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" exact element={<Login />} />
-        <Route path="/cadastro" exact element={<Cadastro />} />
-        <Route path="/perfil" exact element={<Perfil />} />
-        <Route path="/user" exact element={<BoardUser />} />
-        <Route path="/mod" exact element={<BoardModerator />} />
-        <Route path="/admin" exact element={<BoardAdmin />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/perfil" element={<Perfil />} />
+        <Route path="/user" element={<BoardUser />} />
+        <Route path="/mod" element={<BoardModerator />} />
+        <Route path="/admin" element={<BoardAdmin />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/mensagemenviada" element={<ResponseContact />} />
@@ -57,6 +58,7 @@ const Router = () => {
         <Route path="/minhasdoacoes" element={<MinhasDoacoes />} />
         <Route path="/comodoar" element={<ComoDoar />} />
         <Route path="/banco" element={<Bank />} />
+        <Route path="/lista" element={<ListBank />} />
         <Route path="*" element={<Erro />} />
       </Routes>
       <Footer />
