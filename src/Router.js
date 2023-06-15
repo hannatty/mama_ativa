@@ -1,4 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AuthService from "./services/authService";
+import Login from "./pages/Login";
+import Cadastro from "./pages/Cadastro";
+import Perfil from "./pages/Perfil";
+import BoardUser from "./components/Boards/boardUserComponent";
+import BoardModerator from "./components/Boards/boardModeratorComponent";
+import BoardAdmin from "./components/Boards/boardAdminComponent";
 import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
 import AreaDoadora from "./pages/AreaDoadora";
@@ -12,10 +21,34 @@ import ResponseContact from "./pages/Contato/ResponseContact";
 import Bank from "./pages/Doacao/Banco/Banco";
 
 const Router = () => {
+  const [showModeratorBoard, setShowModeratorBoard] = useState(false);
+  const [showAdminBoard, setShowAdminBoard] = useState(false);
+  const [currentUser, setCurrentUser] = useState(undefined);
+
+  useEffect(() => {
+    const user = AuthService.getCurrentUser();
+
+    if (user) {
+      setCurrentUser(user);
+      setShowModeratorBoard(user.roles.includes("ROLE_MODERATOR"));
+      setShowAdminBoard(user.roles.includes("ROLE_ADMIN"));
+    }
+  }, []);
+
+  const logOut = () => {
+    AuthService.logout();
+  };
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" exact element={<Login />} />
+        <Route path="/cadastro" exact element={<Cadastro />} />
+        <Route path="/perfil" exact element={<Perfil />} />
+        <Route path="/user" exact element={<BoardUser />} />
+        <Route path="/mod" exact element={<BoardModerator />} />
+        <Route path="/admin" exact element={<BoardAdmin />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/mensagemenviada" element={<ResponseContact />} />
@@ -25,7 +58,6 @@ const Router = () => {
         <Route path="/comodoar" element={<ComoDoar />} />
         <Route path="/banco" element={<Bank />} />
         <Route path="*" element={<Erro />} />
-
       </Routes>
       <Footer />
     </BrowserRouter>

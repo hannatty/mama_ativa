@@ -1,0 +1,24 @@
+.div-perfil {
+    height: 80vh;
+    overflow: auto;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: black !important;
+}
+
+.div-card-avatar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.card-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
