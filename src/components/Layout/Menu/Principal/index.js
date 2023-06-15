@@ -49,7 +49,7 @@ const Principal = () => {
         </ListItem>
         <ListItem>
           <ListItemButton>
-          <Link className='menu' to="/">Política de Privacidade</Link>
+            <Link className='menu' to="/">Política de Privacidade</Link>
           </ListItemButton>
         </ListItem>
       </List>
@@ -76,34 +76,34 @@ const Principal = () => {
         <Link className="menu" to='/quemsomos' >Quem Somos</Link>
         <Link className="menu" to='/' >Parcerias </Link>
         <Link className="menu" to='/contato'>Contato </Link>
-        <Link to='/areadoadora'>
+        <Link to='/login'>
           <button className="register-button" >Entrar</button>
         </Link>
       </div>
 
       <div className="mobile">
         <div>
-        <Link className="logo1" to="/">
-          <img src={logo1} alt="Logo Mama Ativa" className="logo" />
-        </Link>
+          <Link className="logo1" to="/">
+            <img src={logo1} alt="Logo Mama Ativa" className="logo" />
+          </Link>
         </div>
-    <div>
-    {['right'].map((anchor) => (
-          <React.Fragment key={anchor}>
-            
-           <DensitySmallIcon  className='button'   onClick={toggleDrawer(anchor, true)}/>
-            <Drawer
-              
-              anchor={anchor}
-              open={state[anchor]}
-              onClose={toggleDrawer(anchor, false)}
-            >
-              {list(anchor)}
-            </Drawer>
-          </React.Fragment>
-        ))}
-    </div>
-       
+        <div>
+          {['right'].map((anchor) => (
+            <React.Fragment key={anchor}>
+
+              <DensitySmallIcon className='button' onClick={toggleDrawer(anchor, true)} />
+              <Drawer
+
+                anchor={anchor}
+                open={state[anchor]}
+                onClose={toggleDrawer(anchor, false)}
+              >
+                {list(anchor)}
+              </Drawer>
+            </React.Fragment>
+          ))}
+        </div>
+
       </div>
 
 
