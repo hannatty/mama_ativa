@@ -16,7 +16,7 @@ const QuemSomos = () => {
       className='banner2'
      >
         <div
-        style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
+        style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center',width:"100%" }}>
           <h1
           className='banner-text'
           >

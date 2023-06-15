@@ -93,7 +93,7 @@ const Principal = () => {
             
            <DensitySmallIcon  className='button'   onClick={toggleDrawer(anchor, true)}/>
             <Drawer
-           
+              
               anchor={anchor}
               open={state[anchor]}
               onClose={toggleDrawer(anchor, false)}

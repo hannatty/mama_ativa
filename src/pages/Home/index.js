@@ -6,6 +6,7 @@ import Principal from "../../components/Layout/Menu/Principal";
 import CarroselLactantes from "../../components/Carousel/CarroselLactantes";
 import Mitos from "../../components/Mitos";
 import Doacao from "../../components/ImgsGroup/Doacao";
+import Footer from "../../components/Layout/Footer";
 
 
 
@@ -32,7 +33,7 @@ const Home = () => {
       <div>
         <Doacao />
       </div>
-
+   
     </>
   );
 };

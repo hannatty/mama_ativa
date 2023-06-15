@@ -28,7 +28,7 @@ const Router = () => {
         <Route path="/lista" element={<ListBank />} />
         <Route path="*" element={<Erro />} />
 
-      </Routes>
+      </Routes> 
       <Footer />
     </BrowserRouter>
   );
