@@ -5,6 +5,7 @@ body{
   font-family: 'Quicksand', sans-serif;
   min-height: 100vh;
   height: 100%;
+  overflow: hidden;
 }
 
 .bannerprincipal{
