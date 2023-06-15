@@ -47,14 +47,12 @@ const QuemSomos = () => {
               component="div"
               style={{ fontFamily: "Quicksand", marginLeft: '30px' }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore
-              <br /> magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo <br />{" "}
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur.
-              <br /> Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              O Mama Ativa teve início em 2021 por meio de um desafio proposto pelo Porto Digital. 
+              Tínhamos a missão de desenvolver uma solução tecnológica inspirada na agenda 2030 da ONU, 
+              que aborda 16 objetivos de desenvolvimento sustentável(ODS). Escolhemos o ODS que versa sobre
+              o objetivo de eliminar as mortes evitáveis de recém-nascidos e crianças menores de 5 anos até 2030. 
+              Nossa proposta, modéstia a parte, foi certeira, e vencemos a competição em 1º lugar.
+              Desde lá, nos encantamos pela ideia e decidimos seguir adiante com o projeto.
             </Typography>
           </CardContent>
         </Box>
@@ -92,14 +90,12 @@ const QuemSomos = () => {
               component="div"
               style={{ fontFamily: "Quicksand" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore
-              <br /> magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo <br />{" "}
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur.
-              <br /> Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              Começamos dizendo que a mulher que amamenta é a nossa grande protagonista. 
+              Todas as ideias, atuais e futuras, são pensadas cuidadosamente para prover a melhor 
+              experiência possível para quem faz acontecer.
+              Buscamos através dessa plataforma, trazer para nossa usuária um ambiente amigável, com informações claras e seguras,
+              para que munidas de conhecimento, nossa usuária sinta-se motivada a compartilhar seu leite, bem como
+              a através de seu exemplo, incentivar outras mulheres a repetirem o gesto.
             </Typography>
           </CardContent>
         </Box>
