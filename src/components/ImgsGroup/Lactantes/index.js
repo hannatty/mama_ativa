@@ -20,7 +20,7 @@ export default function ImgsGroup() {
         <img src={foto1} alt="Mulher com bebê" className="img-config" />
         <img src={foto3} alt="Mulher com bebê" className="img-config" />
       </div>
-      <div>
+      <div className="mobile">
         <img className="imgGroupmobile" src={colagem} alt="mobile"></img>
       </div>
 
