@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import logo1 from "../../images/logo1.svg";
+import logo1 from "../../../images/logo1.svg";
 import "./headerProfile.css";
-import UserMenu from "../../components/UserMenu";
+import UserMenu from "../../UserMenu";
 
 const HeaderProfile = () => {
   return (

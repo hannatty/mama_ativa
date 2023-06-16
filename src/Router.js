@@ -1,3 +1,5 @@
+import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
@@ -13,11 +15,17 @@ import Bank from "./pages/Doacao/Banco/Banco";
 import ListBank from "./pages/Doacao/Banco/Lista";
 import MamaMidia from "./pages/MamaMidia";
 
+
+
+
 const Router = () => {
+  
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
+       
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/mensagemenviada" element={<ResponseContact />} />
@@ -30,7 +38,7 @@ const Router = () => {
         <Route path="/mamamidia" element={<MamaMidia />} />
         <Route path="*" element={<Erro />} />
 
-      </Routes> 
+      </Routes>
       <Footer />
     </BrowserRouter>
   );

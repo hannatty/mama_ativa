@@ -78,13 +78,13 @@
     border-radius: 50%;
     animation: ondulacao-borda 2s linear infinite;
     @media screen and (max-width: 768px){
-       width: 85%;
+       width: 90%;
        height: 47%;
        align-items: center;
        display: block;
-       margin-top: -11vh;
+       margin-top: -8vh;
       justify-content: center;
-      right: 40px;
+      right: 30px;
       }
 }
 
