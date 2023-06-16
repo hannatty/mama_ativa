@@ -7,7 +7,7 @@ import RegisterComponent from "../../components/Register/registerComponent";
 export default class Login extends Component {
     render() {
         return (
-            <div>
+            <div class="cadastro">
                 <MenuPrincipal />
                 <div>
                     <RegisterComponent />

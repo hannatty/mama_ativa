@@ -1,12 +1,4 @@
-* {
-    font-family: "Quicksand", sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-input[type=number]::-webkit-inner-spin-button,
+.cadastro input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -14,7 +6,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-label {
+.cadastro label {
     color: #555;
 }
 
@@ -30,7 +22,7 @@ label {
     box-shadow: 0 0 10px #C7CBF3 !important;
 }
 
-buttons,
+.cadastro buttons,
 input:focus {
     outline: none !important;
     outline-color: #9098E0 !important;
@@ -38,7 +30,7 @@ input:focus {
     box-shadow: 0 0 10px #C7CBF3 !important;
 }
 
-a.navbar-brand {
+.cadastro a.navbar-brand {
     color: #ffffff !important;
 }
 
@@ -52,7 +44,7 @@ a.navbar-brand {
     margin-top: 1%;
 }
 
-body {
+.cadastro {
     background-color: #F1F1F1;
     overflow-x: hidden;
 }
@@ -171,7 +163,7 @@ body {
     cursor: pointer;
 }
 
-input:checked {
+.cadastro input:checked {
     accent-color: #8289c7;
 }
 
@@ -207,23 +199,23 @@ input:checked {
     text-align: start;
 }
 
-a.link:link {
+.cadastro a.link:link {
     color: #555;
     text-decoration: none;
 }
 
-a.link:visited {
+.cadastro a.link:visited {
     color: #555;
     text-decoration: none;
 }
 
-a.link:hover {
+.cadastro a.link:hover {
     font-size: 1.1rem;
     color: #8289c7;
     text-decoration: none;
 }
 
-a.link:active {
+.cadastro a.link:active {
     color: #555;
     text-decoration: none;
 }

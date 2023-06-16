@@ -6,7 +6,7 @@ import LoginComponent from "../../components/Login/loginComponent";
 const Login = () => {
     return (
         <>
-            <div>
+            <div class="login">
                 <MenuPrincipal />
                 <div>
                     <LoginComponent />
