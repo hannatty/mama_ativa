@@ -25,9 +25,6 @@ const Home = () => {
         <ImgsGroup />
       </div>
       <div>
-      <CarroselLactantes/>
-      </div>
-      <div>
         <Mitos />
       </div>
       <div>

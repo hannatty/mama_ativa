@@ -59,7 +59,7 @@ const Principal = () => {
       <List>
         <ListItem>
           <ListItemButton>
-            <Link to='/areadoadora'>
+            <Link to='/login'>
               <button className="register-button" >Entrar</button>
             </Link>
           </ListItemButton>
@@ -76,7 +76,7 @@ const Principal = () => {
         <Link className="menu" to='/quemsomos' >Quem Somos</Link>
         <Link className="menu" to='/' >Parcerias </Link>
         <Link className="menu" to='/contato'>Contato </Link>
-        <Link to='/areadoadora'>
+        <Link to='/login'>
           <button className="register-button" >Entrar</button>
         </Link>
       </div>
