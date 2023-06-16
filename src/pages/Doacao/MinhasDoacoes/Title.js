@@ -64,9 +64,6 @@ function Title() {
       >
         <Box sx={{ ...style, width: 510, borderRadius:"8px", border:"#fff" }}>
           <h2 id="parent-modal-title">Nova Doação</h2>
-          <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </p>
           <div>
             <FormControl sx={{ m: 1, width: '10ch', }} variant="filled">
               <div style={{ display: "flex", marginBottom: "50px" }} >
@@ -98,13 +95,13 @@ function Title() {
               <div>
                 <Select style={{ width: "67vh" }} native defaultValue="" id="grouped-native-select" label="Grouping">
                   <option aria-label="None" value="" />
-                  <optgroup label="Category 1">
-                    <option value={1}>Option 1</option>
-                    <option value={2}>Option 2</option>
+                  <optgroup label="Bancos de Leite Humano">
+                    <option value={1}>Banco de Leite Humano do Imip</option>
+                    <option value={2}>Banco da Maternidade Professor Bandeira Filho</option>
                   </optgroup>
-                  <optgroup label="Category 2">
-                    <option value={3}>Option 3</option>
-                    <option value={4}>Option 4</option>
+                  <optgroup label="Postos de Coleta">
+                    <option value={3}>Posto de Coleta Enfermeira Lourdes Fernandes</option>
+                    <option value={4}>Posto de Coleta Clara Nunes</option>
                   </optgroup>
                 </Select>
               </div>

@@ -126,7 +126,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #737777;
+    color: black;
     @media screen and (max-width: 768px){
         font-size: 15px;
         

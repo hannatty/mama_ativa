@@ -56,7 +56,7 @@ export default function Bank(props) {
             dia: "Segunda a Sexta",
             hora: "Manhã: de 07h às 11:55h Tarde: 13h às 17h",
             phone: "81-2122-4719",
-            coleta: "conta com coleta domiciliar"
+            coleta: "Conta com coleta domiciliar"
         }
     ]
 
@@ -161,9 +161,9 @@ export default function Bank(props) {
 
 
                 <div align="center" className="litros-bank">
-                    <h1 className="litros">14,5L</h1>
+                    <h1 className="litros">4,3L</h1>
                     <h3 className="description-litros">Esse é o estoque do banco de leite selecionado.
-                        Essa quantidade é suficiente para apenas 4 dias de suporteà recém-nascidos hospitalizados.</h3>
+                        Essa quantidade é suficiente para apenas 4 dias de suporte à recém-nascidos hospitalizados.</h3>
                 </div>
             </div>
 
