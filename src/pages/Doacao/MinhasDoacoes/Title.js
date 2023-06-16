@@ -2,7 +2,7 @@ import React from "react";
 import { Paper, Button, FormControl, FilledInput, InputAdornment, Select } from "@mui/material";
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-
+import "./styles.css"
 const style = {
   position: 'absolute',
   top: '50%',
@@ -31,15 +31,8 @@ function Title() {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
-      <Paper
-        style={{
-          width: "60%",
-          backgroundColor: "#C7CBF3",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-          alignItems: "center",
-        }}
+      <div
+      className="paper-doacoes"
       >
         <h3>Registro de Doações</h3>
         <Button
@@ -53,7 +46,7 @@ function Title() {
           {" "}
           Novo{" "}
         </Button>
-      </Paper>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}
@@ -62,11 +55,8 @@ function Title() {
         
 
       >
-        <Box sx={{ ...style, width: 510, borderRadius:"8px", border:"#fff" }}>
+        <Box className="modal" sx={{ ...style, width: 510, borderRadius:"8px", border:"#fff" }}>
           <h2 id="parent-modal-title">Nova Doação</h2>
-          <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </p>
           <div>
             <FormControl sx={{ m: 1, width: '10ch', }} variant="filled">
               <div style={{ display: "flex", marginBottom: "50px" }} >

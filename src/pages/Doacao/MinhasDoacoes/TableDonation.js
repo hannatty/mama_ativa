@@ -7,7 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
-
+import "./styles.css"
 
 const columns = [
   { id: "donationDate", label: "Data", minWidth: 100 },
@@ -47,8 +47,8 @@ export default function TableDonation() {
   };
 
   return (
-    <div style={{display:'flex', justifyContent: 'center' }}>
-      <Paper sx={{ width: "60%", overflow: "hidden" }}>
+    <div  style={{display:'flex', justifyContent: 'center' }}>
+      <Paper className="table-responsive">
         <TableContainer sx={{ maxHeight: 440 }}>
           <Table stickyHeader aria-label="sticky table">
             <TableHead>

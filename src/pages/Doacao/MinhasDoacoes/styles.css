@@ -1,0 +1,42 @@
+.areaDoadora {
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.paper-doacoes {
+    width: 60%;
+    background-color: #C7CBF3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #5B69E8;
+    border: 1px solid #C7CBF3;
+    border-radius: 6px;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+
+    }
+}
+
+.table-responsive {
+    width: 60%;
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+.modal  {
+    width: 510;
+    border-radius: 8px;
+    border: #fff;
+    @media screen and (max-width: 768px) {
+     padding: 40px 80px;
+        height: 60%;
+    }
+}
