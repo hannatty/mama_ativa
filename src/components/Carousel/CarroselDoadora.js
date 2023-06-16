@@ -25,15 +25,16 @@ export default function CarroselDoadora(props) {
       title: "Minhas Doações",
       src: <button className="button-item"><Link className="button-item"to='/minhasdoacoes'>Minhas Doações</Link></button>
     },
+    /*
     {
       img: <img src={trofeu_icon} alt="ícone" className="imageCards" />,
       title: "Minhas Conquistas",
       src: <button className="button-item"><Link className="button-item"to='/'>Minhas Conquistas</Link></button>
-    },
+    },*/
     {
       img: <img src={media_icon} alt="ícone" className="imageCards" />,
       title: "Mama Mídia",
-      src: <button className="button-item"><Link className="button-item"to='/'>Mama Mídia</Link></button>
+      src: <button className="button-item"><Link className="button-item"to='/mamamidia'>Mama Mídia</Link></button>
     },
   ];
 

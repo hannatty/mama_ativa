@@ -1,0 +1,101 @@
+.mm_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F1F1F1;
+  margin-top: 0;
+}
+
+.title_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 2rem 0;
+}
+
+.title_section h1{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 4.5rem;
+  margin-bottom: 0;
+  color: #33168D;
+  @media screen and (max-width: 768px){
+    font-size: 2rem;
+   }
+}
+
+.title_section h3{
+  text-align: center;
+  width: 60rem;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #33168D;
+  @media screen and (max-width: 768px){
+    font-size:1rem;
+    width: 18rem;
+   }
+}
+
+.cards_section{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+
+.divider {
+  width: 85vw; /* 80% da largura da viewport */
+  height:1.5px; /* Define a altura da linha */
+  background-color: #BDB9B9; /* Define a cor da linha */
+  margin-bottom: 3rem;
+}
+
+.card_config{
+  width:350px ;
+  height:350px ;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  border-radius: 5px 5px 0 0;
+  @media screen and (max-width: 768px){
+    width:250px ;
+    height:250px ;
+   }
+}
+
+.single_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.meuBotao {
+  width: 350px;
+  font-weight: bold;
+  height: 25px;
+  cursor: pointer;
+  background-color: #C7CBF3;
+  color: black;
+  border-radius: 0 0 5px 5px;
+  border: none;
+  @media screen and (max-width: 768px){
+    width:250px ;
+    height:25px ;
+   }
+}
+
+.meuBotao:hover {
+  background-color: #A4A8D9;
+}
+
+.iconfig{
+  width: 12px;
+  height: 12px;
+}
