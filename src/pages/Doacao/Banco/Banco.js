@@ -82,7 +82,7 @@ export default function Bank(props) {
                     {bankList.map((e) =>
                         <div>
                             <div className="card-bank">
-                                <div>
+                                <div align="center">
                                     <h2 className="bank-name">{e.name}</h2>
                                 </div>
                                 <div align="center" className="d-flex">
