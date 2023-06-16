@@ -15,11 +15,9 @@ const ComoDoar = () => {
           </div>
           <div align="center" className="card-title"></div>
           <p>Confira aqui tudo o que você precisa saber para realizar sua doação!</p>
-         
+          <div class="divider"></div>
         </div>
-       
         <div className="imgInfoGraphic">
-        <img src={titleInfographic} alt="Quer saber como doar?" className="titleConfig" />
           <img src={infographic} alt="Infrográfico da doação" className="infographicConfig" />
         </div>
       </div>
